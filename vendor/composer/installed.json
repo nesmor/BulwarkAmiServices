@@ -1,0 +1,76 @@
+[
+    {
+        "name": "yidas/codeigniter-psr4-autoload",
+        "version": "2.0.0",
+        "version_normalized": "2.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yidas/codeigniter-psr4-autoload.git",
+            "reference": "38da6846d497193bf73f6e511da401156d9aa0db"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yidas/codeigniter-psr4-autoload/zipball/38da6846d497193bf73f6e511da401156d9aa0db",
+            "reference": "38da6846d497193bf73f6e511da401156d9aa0db",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2019-07-13 17:24:26",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ],
+            "psr-4": {
+                "app\\": "../../../"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "CodeIgniter 3 PSR-4 Autoloader for Application",
+        "homepage": "https://github.com/yidas/codeigniter-psr4-autoload",
+        "keywords": [
+            "PSR-4",
+            "autoload",
+            "autoloader",
+            "codeigniter"
+        ]
+    },
+    {
+        "name": "mikey179/vfsstream",
+        "version": "v1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bovigo/vfsStream.git",
+            "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bovigo/vfsStream/zipball/fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+            "reference": "fc0fe8f4d0b527254a2dc45f0c265567c881d07e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2012-08-25 12:49:29",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "org\\bovigo\\vfs": "src/main/php"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD"
+        ],
+        "homepage": "http://vfs.bovigo.org/"
+    }
+]
